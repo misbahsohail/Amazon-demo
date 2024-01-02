@@ -75,11 +75,6 @@ function Header() {
         <p className="font-bold text-sm leading-3">& Orders</p>
       </div>
 
-      {/* <div className="text-white">
-        <FontAwesomeIcon icon={faCartShopping} className="shopping-cart-icon" />
-        <p className="font-bold text-sm leading-1">Cart</p>
-      </div> */}
-
       <div className="flex">
         <div className="container relative">
           <span className="absolute z-10 text-orange-500 mt-2 ml-3 font-bold ">
