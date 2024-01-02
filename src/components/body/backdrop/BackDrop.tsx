@@ -5,7 +5,7 @@ import backGround_3 from "../../../assets/backGround_3.jpg";
 import ImageNavigationButton, {
   NavProps,
 } from "./image navigation/ImageNavigationButton";
-import Card from "./card/Card";
+import Cards from "./cards/Cards";
 
 function BackDrop() {
   const images = [backGround_1, backGround_2, backGround_3];
@@ -45,7 +45,7 @@ function BackDrop() {
           );
         })}
       </div>
-      <Card />
+      <Cards />
     </div>
   );
 }
